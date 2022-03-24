@@ -92,5 +92,22 @@
 .ex-5-square:active{
     transform: scale(0.5,0.5);
 }
-
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img:hover{
+    transition: 2s;
+    filter: invert(1) saturate(1);
+}
+.ex-8-img:hover{
+    transition: 2s;
+    filter: invert(1) contrast(1);
+    border-radius: 10px;
+}
+.ex-9-img:hover{
+    transition: 2s;
+    filter: sepia(1) contrast(1);
+    border-radius: 10px;
+    transform: scale(1.5);
+}
 
